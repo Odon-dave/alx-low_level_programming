@@ -7,11 +7,15 @@
 int main(void)
 {
 int UniqueIntVar;
+long int UniqueLongIntVar;
+long long int UniqueLongLongIntVar;
 float UniqueFloatVar;
 double UniqueDoubleVar;
 char UniqueCharVar;
 
 	printf("%lu\n", sizeof(UniqueIntVar));
+	printf("%lu\n", sizeof(UniqueLongIntVar));
+	printf("%lu\n", sizeof(UniqueLongLongIntVar));
 	printf("%lu\n", sizeof(UniqueFloatVar));
 	printf("%lu\n", sizeof(UniqueDoubleVar));
 	printf("%lu\n", sizeof(UniqueCharVar));
