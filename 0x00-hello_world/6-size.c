@@ -6,18 +6,18 @@
  */
 int main(void)
 {
-int UniqueIntVar;
-long int UniqueLongIntVar;
-long long int UniqueLongLongIntVar;
-float UniqueFloatVar;
-double UniqueDoubleVar;
-char UniqueCharVar;
+int a;
+long int b;
+long long int c;
+float d;
+double e;
+char f;
 
-	printf("%lu\n", sizeof(UniqueIntVar));
-	printf("%lu\n", sizeof(UniqueLongIntVar));
-	printf("%lu\n", sizeof(UniqueLongLongIntVar));
-	printf("%lu\n", sizeof(UniqueFloatVar));
-	printf("%lu\n", sizeof(UniqueDoubleVar));
-	printf("%lu\n", sizeof(UniqueCharVar));
+	printf("%lu\n", sizeof(a));
+	printf("%lu\n", sizeof(b));
+	printf("%lu\n", sizeof(c));
+	printf("%lu\n", sizeof(d));
+	printf("%lu\n", sizeof(e));
+	printf("%lu\n", sizeof(f));
 	return (0);
 }
