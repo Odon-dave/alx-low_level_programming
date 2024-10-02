@@ -11,9 +11,9 @@ float UniqueFloatVar;
 double UniqueDoubleVar;
 char UniqueCharVar;
 
-	printf("%lu\n", size of(UniqueIntVar));
-	printf("%lu\n", size of(UniqueFloatVar));
-	printf("%lu\n", size of(UniqueDoubleVar));
-	printf("%lu\n", size of(UniqueCharVar));
+	printf("%lu\n", sizeof(UniqueIntVar));
+	printf("%lu\n", sizeof(UniqueFloatVar));
+	printf("%lu\n", sizeof(UniqueDoubleVar));
+	printf("%lu\n", sizeof(UniqueCharVar));
 	return (0);
 }
