@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - a program that prints the last digit 
+ * main - a program that prints the last digit
  * Return: 0 (success)
  */
 int main(void)
@@ -19,11 +19,11 @@ printf(" and is greater than 5\n");
 }
 else if (last_digit == 0)
 {
-printf("and is 0\n");
+printf(" and is 0\n");
 }
-else 
+else
 {
-printf("and is less than 6 and not 0");
+printf(" and is less than 6 and not 0");
 }
 return (0);
 }
