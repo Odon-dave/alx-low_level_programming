@@ -6,7 +6,7 @@
  *         0 if in is 0
  *         -1 if n is less than 0
  */
-int print_sign(int n);
+int print_sign(int n)
 {
 if (n > 0)
 {
