@@ -14,7 +14,7 @@ if (n / 10)
 {
 print_number(n / 10);
 }
-putchar((n % 10) +'0');
+putchar((n % 10) + '0');
 }
 /**
 * print_to_98- function that prints natural numbers to 98
