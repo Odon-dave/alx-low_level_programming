@@ -11,8 +11,8 @@ for (; n <= 98; n++)
 {
 print_number(n);
 if (n != 98)
-_putchar(",");
-_putchar(' ');
+putchar(",");
+putchar(' ');
 }
 }
 else
@@ -21,9 +21,9 @@ for (; n >= 98; n--)
 {
 print_number(n);
 if (n != 98)
-_putchar(',');
-_putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
-_putchar('\n');
+putchar('\n');
 }
