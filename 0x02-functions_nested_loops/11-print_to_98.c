@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * print_number- a helper to print an integer
+ * @n: starting number
  */
 void print_number(int n)
 {
