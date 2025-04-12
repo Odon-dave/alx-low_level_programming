@@ -3,7 +3,7 @@
 /**
  * print_number- a helper to print an integer 
  */
-void print_number(n)
+void print_number(int n)
 {
 if (n < 0)
 {
