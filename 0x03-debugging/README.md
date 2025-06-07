@@ -1,1 +1,1 @@
-project that helps in debugging process
+0x03. C - Debugging
