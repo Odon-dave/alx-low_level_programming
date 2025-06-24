@@ -2,7 +2,7 @@
 /**
  * _strlen - function to check the length of a string
  * @s:pointer to the strin to measure
- * Return: length of the string 
+ * Return: length of the string
  */
 int _strlen(char *s)
 {
